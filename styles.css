@@ -5,3 +5,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
