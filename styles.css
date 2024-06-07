@@ -16,3 +16,22 @@ html {
     box-sizing: inherit;
     border: 1px solid red;
 }
+
+.main-container,
+.left-container,
+.right-container {
+    display: flex;
+}
+
+.main-container {
+    justify-content: center;
+}
+
+.left-container {
+    width: 45vh;
+}
+
+.right-container {
+    width: 100vh;
+    flex-direction: column;
+}
