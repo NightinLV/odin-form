@@ -87,7 +87,7 @@ form {
 }
 
 img {
-    max-height: 10rem;
+    flex-shrink: 1;
 }
 
 .logo-container {
