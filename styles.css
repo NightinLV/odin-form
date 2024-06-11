@@ -38,7 +38,15 @@ fieldset {
 }
 
 .form-container {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .footer {
@@ -63,7 +71,7 @@ fieldset {
 .left-container {
     display: flex;
     justify-content: center;
-    min-width: 30vw;
+    max-width: 30vw;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
 }
@@ -76,7 +84,7 @@ fieldset {
     padding: 0.7em;
     margin-top: 10em;
     max-height: 10rem;
-    min-width: 30vw;
+    max-width: 30vw;
     font-size: large;
     color: white;
 }
@@ -91,11 +99,44 @@ fieldset {
 }
 
 fieldset {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     padding-top: 2em;
     padding-left: 0;
+    gap: 4em;
+}
+
+label {
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    color: rgb(33, 33, 33);
+}
+
+input {
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid rgb(39, 39, 193);
+    box-shadow: 6px 3px 3px 3px rgb(149, 149, 149);
 }
 
 .btn-container {
     margin-top: 2em;
 }
+
+button {
+    font-weight: 900;
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #596D48;
+    border-radius: 10px;
+    box-shadow: 6px 3px 3px 3px rgb(149, 149, 149);
+}
+
