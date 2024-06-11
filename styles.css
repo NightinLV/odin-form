@@ -96,6 +96,8 @@ img {
     justify-content: center;
     background-color: rgba(0, 0, 0, 60%);
     padding: 0.7em;
+    padding-left: 7rem;
+    padding-right: 7rem;
     margin-top: 10em;
     max-height: 10rem;
     max-width: 30vw;
