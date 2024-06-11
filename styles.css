@@ -19,19 +19,48 @@ html {
 
 .main-container,
 .left-container,
-.right-container {
+.right-container, 
+fieldset {
     display: flex;
 }
+
+.form-container,
+.header,
+.footer {
+    padding: 2em;
+}
+
+.fname-container,
+.lname-container,
+.email-container,
+.telephone-container,
+.passwd-container,
+.passwd-confirm-container {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .main-container {
     justify-content: center;
 }
 
 .left-container {
-    width: 45vh;
+    min-width: 30vw;
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
 }
 
 .right-container {
-    width: 100vh;
+    width: 45vw;
     flex-direction: column;
+}
+
+fieldset {
+    justify-content: flex-start;
+    gap: 4em;
+}
+
+.btn-container {
+    margin-top: 2em;
 }
