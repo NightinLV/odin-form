@@ -8,6 +8,7 @@
 
 html {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *,
@@ -15,6 +16,10 @@ html {
 *::after {
     box-sizing: inherit;
     border: 1px solid red;
+}
+
+body {
+    background-color: rgb(40, 39, 39);
 }
 
 .main-container,
@@ -28,6 +33,12 @@ fieldset {
 .header,
 .footer {
     padding: 2em;
+    flex: 1;
+    background-color: rgb(196, 194, 194);
+}
+
+.footer {
+    padding-bottom: 10rem;
 }
 
 .fname-container,
@@ -46,9 +57,28 @@ fieldset {
 }
 
 .left-container {
+    display: flex;
+    justify-content: center;
     min-width: 30vw;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
+}
+
+.logo-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 60%);
+    padding: 0.7em;
+    margin-top: 10em;
+    max-height: 10rem;
+    min-width: 30vw;
+    font-size: large;
+    color: white;
+}
+
+.logo-container > h1 {
+    font-size: 3rem;
 }
 
 .right-container {
