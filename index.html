@@ -26,7 +26,7 @@
             </div>
             <div class="form-container">
                 <h2>Let's do this!</h2>
-                <form action="#" method="get">
+                <form action="#" method="">
                     <fieldset class="form-name-container">
                         <div class="fname-container">
                             <label for="fname">FIRST NAME</label>
@@ -50,11 +50,15 @@
                     <fieldset class="form-passwd-container">
                         <div class="passwd-container">
                             <label for="passwd">PASSWORD</label>
-                            <input type="password" name="passwd" id="passwd" required>
+                            <input type="password" name="passwd" id="passwd" 
+                            pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[*.!@$%^&()[]:;<>,.?/~_+-=|\]).{8,32}$"                         
+                            required>
                         </div>
                         <div class="passwd-confirm-container">
                             <label for="passwdconf">CONFIRM PASSWORD</label>
-                            <input type="password" name="passwdconf" id="passwdconf" required>
+                            <input type="password" name="passwdconf" id="passwdconf" 
+                            pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[*.!@$%^&()[]:;<>,.?/~_+-=|\]).{8,32}$"                         
+                            required>
                         </div>
                     </fieldset>
                     <div class="btn-container">
