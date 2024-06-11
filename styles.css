@@ -34,7 +34,11 @@ fieldset {
 .footer {
     padding: 2em;
     flex: 1;
-    background-color: rgb(196, 194, 194);
+    background-color: rgb(242, 242, 242);
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255);
 }
 
 .footer {
@@ -88,7 +92,8 @@ fieldset {
 
 fieldset {
     justify-content: flex-start;
-    gap: 4em;
+    padding-top: 2em;
+    padding-left: 0;
 }
 
 .btn-container {
